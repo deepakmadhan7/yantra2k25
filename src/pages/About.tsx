@@ -7,6 +7,7 @@ import 'swiper/css';
 import 'swiper/css/effect-creative';
 import 'swiper/css/navigation';
 import 'swiper/css/pagination';
+import ab from './ab.jpeg'
 
 function About() {
   const [isVideoLoaded, setIsVideoLoaded] = React.useState(false);
@@ -109,7 +110,7 @@ function About() {
                   <div className="bg-black/30 rounded-lg overflow-hidden backdrop-blur-sm">
                     <div className="relative h-64">
                       <img 
-                        src={page.image} 
+                        src={ab} 
                         alt={page.title}
                         className="w-full h-full object-cover"
                       />
