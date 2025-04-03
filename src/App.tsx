@@ -442,7 +442,8 @@ function App() {
                     <h3 className="text-xl text-yellow-400 font-bold text-center mb-2">{event.title}</h3>
                     <p className="text-gray-300 text-center mb-4">{event.description}</p>
                     <h3 className="text-xl text-yellow-400 text-center mb-3">{event.coed}</h3>
-                    <div className="md:grid md:grid-cols-2 flex cols-2 mb-2" ><p>{event.name} <br></br>contact:{event.no}</p> <p className="md:text-right  ml-20 "> {event.name1}<br></br>contact:{event.no1}</p></div>
+                    {/* <div className="md:grid md:grid-cols-2 flex cols-2 mb-2" ><p>{event.name} <br></br>contact:{event.no}</p> <p className="md:text-right  ml-20 "> {event.name1}<br></br>contact:{event.no1}</p></div> */}
+                    <div className="sm:grid sm:grid-cols-2 flex cols-2 mb-2" ><p>{event.name} <br></br>contact: {event.no}</p> <p className="  md:text-right ml-20 ">{event.name1}<br></br>contact: {event.no1}</p></div>
                     <a href={event.link1}><button  className="w-full bg-yellow-400 text-black px-4 py-2 rounded font-bold hover:bg-yellow-300 transition">
                     Register
                     </button></a>
