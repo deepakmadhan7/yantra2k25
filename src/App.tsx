@@ -636,8 +636,8 @@ function App() {
       <span className="text-center">Jaiakash R</span>
     </a>
     <a href="https://www.linkedin.com/in/aadhithya-narayanan-k-s-29a3a5344" target="_blank" className="flex flex-col items-center space-y-2">
-      <img src="l.png" alt="Aadhithya Narayanan K S - LinkedIn" className="h-10 w-10" />
-      <span className="text-center">Aadhithya Narayanan K S</span>
+      <img src="l.png" alt="Aadhithya Narayanan K S - LinkedIn" className="h-8 w-8" />
+      <span className="text-center">Aadhithya Narayanan </span>
     </a>
     <a href="https://www.linkedin.com/in/your-profile" target="_blank" className="flex flex-col items-center space-y-2">
       <img src="l.png" alt="Ramasubramanian - LinkedIn" className="h-10 w-10" />
