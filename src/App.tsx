@@ -459,13 +459,13 @@ function App() {
             <div className="grid md:grid-cols-2 gap-8 mb-12">
               <div className="bg-white/10 p-6 rounded-lg">
                 <h3 className="text-xl font-bold mb-2">Head of Department</h3>
-                <p className="text-lg">Dr. S. Kamatchi Sankaran</p>
-                <p className="text-lg">Contact: 9751339664</p>
+                <p className="text-lg">Dr. S. SanthanaKrishnan</p>
+                <p className="text-lg">Contact:  90038 46046</p>
               </div>
               <div className="bg-white/10 p-6 rounded-lg">
                 <h3 className="text-xl font-bold mb-2">Assistant HOD</h3>
-                <p className="text-lg">Dr. S. SanthanaKrishnan</p>
-                <p className="text-lg">Contact:  90038 46046</p>
+                <p className="text-lg">Mr. K. Ayyanar</p>
+                <p className="text-lg">Contact:   +91 7604800911</p>
               </div>
             </div>
 
