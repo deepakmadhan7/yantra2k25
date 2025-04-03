@@ -116,9 +116,9 @@ function App() {
       no1 :"7395956584",
       coed:"Student Coordinator ",
       icon: Brain,
-      link1:"https://docs.google.com/forms/d/e/1FAIpQLSc_i9eBP3RywTdOUBQYShw1y_NiPguiWoWQ8fkUsQP1FVKWUA/viewform?usp=dialog",
+      link1:"https://docs.google.com/forms/d/e/1FAIpQLSeIh4SMdTQwNtEd3fvUUWbWgw34TD-1eZd5d3fu-hI0jz89eg/viewform",
     },
-    {
+    
       title: "Rapid Sketch",
       description: "A fun guessing game where team members interpret and identify technical components based on quick sketches drawn by teammates.",
       image: "https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?auto=format&fit=crop&w=800&q=80",
