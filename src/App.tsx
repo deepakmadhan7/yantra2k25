@@ -96,6 +96,7 @@ function App() {
       no1 :"7871759996",
       coed:"Student Coordinator ",
       icon: Code,
+      link:"https://docs.google.com/forms/d/e/1FAIpQLSc_i9eBP3RywTdOUBQYShw1y_NiPguiWoWQ8fkUsQP1FVKWUA/viewform?usp=dialog",
       
     },
     {
@@ -107,7 +108,8 @@ function App() {
       name1 :"Yunis edwin",
       no1 :"7395956584",
       coed:"Student Coordinator ",
-      icon: Brain
+      icon: Brain,
+      link:"https://docs.google.com/forms/d/e/1FAIpQLSc_i9eBP3RywTdOUBQYShw1y_NiPguiWoWQ8fkUsQP1FVKWUA/viewform?usp=dialog",
     },
     {
       title: "Rapid Sketch",
@@ -176,7 +178,7 @@ function App() {
     <div className="max-w-7xl mx-auto px-4 flex justify-between items-center">
       {/* Logo Section */}
       <div className="flex items-center">
-        <img src={msec} alt="MSEC Logo" className="h-22 w-24 opacity-100" />
+        <img src={msec} alt="MSEC Logo" className="h-40 w-45 opacity-100" />
       </div>
 
       {/* Event Name with Spinning Icon */}
@@ -422,7 +424,7 @@ function App() {
                     <h3 className="text-xl text-yellow-400 text-center mb-4">{event.coed}</h3>
                     <div className="sm:flex sm:cls-2 md:ml-1 m-3" ><p>Name :{event.name} <br></br>contact:{event.no}</p> <p className=" text-right ml-12 ">Name : {event.name1}<br></br>contact:{event.no1}</p></div>
                     <button className="w-full bg-yellow-400 text-black px-4 py-2 rounded font-bold hover:bg-yellow-300 transition">
-                      Register
+                     <a href={event.link}>Register</a> 
                     </button>
                   </div>
                 </SwiperSlide>
@@ -626,7 +628,7 @@ function App() {
               <div className="text-left mt-8">
               <div className="text-left mt-8">
   <p className="font-bold text-lg mb-4">Developers</p>
-  <div className="grid grid-cols-4 sm:grid-cols-2 md:grid-cols-4 gap-2 items-center">
+  <div className="grid grid-cols-4 sm:grid-cols-2 md:grid-cols-4 gap-1 items-center">
     <a href="https://www.linkedin.com/in/deepak-m-2a72472a2" target="_blank" className="flex flex-col items-center space-y-2">
       <img src="l.png" alt="Deepak M - LinkedIn" className="h-10 w-10" />
       <span className="text-center">Deepak M</span>
@@ -636,8 +638,8 @@ function App() {
       <span className="text-center">Jaiakash R</span>
     </a>
     <a href="https://www.linkedin.com/in/aadhithya-narayanan-k-s-29a3a5344" target="_blank" className="flex flex-col items-center space-y-2">
-      <img src="l.png" alt="Aadhithya Narayanan K S - LinkedIn" className="h-8 w-8" />
-      <span className="text-center">Aadhithya Narayanan </span>
+      <img src="l.png" alt="Aadhithya Narayanan K S - LinkedIn" className="h-10 w-10" />
+      <span className="text-center">Aadhithya Narayanan</span>
     </a>
     <a href="https://www.linkedin.com/in/your-profile" target="_blank" className="flex flex-col items-center space-y-2">
       <img src="l.png" alt="Ramasubramanian - LinkedIn" className="h-10 w-10" />
