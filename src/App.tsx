@@ -35,7 +35,7 @@ function App() {
       name1 :"Dilli ganesh",
       no1 :"9361103942",
       image: "https://images.unsplash.com/photo-1542751371-adc38448a05e?auto=format&fit=crop&w=800&q=80",
-      link:"https://docs.google.com/forms/d/e/1FAIpQLScytXlI0kMiHZO3MyDe-ww8fe2WgkzwcovM-XKFxPjrz7MjQw/viewform?usp=dialog",
+      link:"https://docs.google.com/forms/d/e/1FAIpQLScWW7otrGhWQMpbs4L5YrDEBRV5BMi1M5NsLoQClOxfVv9VRQ/viewform",
       icon: Gamepad
      
     },
@@ -47,8 +47,10 @@ function App() {
       no :"9566974598",
       name1 :"Vishnu",
       no1 :"9159830266",
-      image: "https://images.unsplash.com/photo-1516035069371-29a1b244cc32?auto=format&fit=crop&w=800&q=80",
+      link:"https://docs.google.com/forms/d/e/1FAIpQLScx5k7j6Uk8MhL0ep3Ipt8PdE0ngOK7PIhAU4IMLEzaD5RtRw/viewform?usp=header",
+      image: "https://images.unsplash.com/photo-1516035069371-29a1b244cc32?auw=800&q=80",
       icon: Camera
+  
     },
     {
       title: "Who Am I ?",
@@ -58,8 +60,10 @@ function App() {
       no :"9360378035",
       name1 :"Hariharan",
       no1 :"9445338220",
+      link:"https://docs.google.com/forms/d/e/1FAIpQLScWN0N8r2pa6MwB7ywvj79T-M-ZFICGKREwIG00iI5Bt7G0SA/viewform",
       image: "https://images.unsplash.com/photo-1516450360452-9312f5e86fc7?auto=format&fit=crop&w=800&q=80",
       icon: Mic
+
     },
     {
     
@@ -70,6 +74,7 @@ function App() {
       no :"7538880346",
       name1 :"Sriram",
       no1 :"9443700344",
+      link:"https://docs.google.com/forms/d/e/1FAIpQLSeTUunTcJt4JDO7YDJ4jV3033WsQeDKl52lzhwToE9gpq0GAA/viewform",
       image: "https://images.unsplash.com/photo-1543536448-d209d2d13a1c?auto=format&fit=crop&w=800&q=80",
       icon: Camera
     },
@@ -81,6 +86,7 @@ function App() {
       no :"9361961738",
       name1 :"Munishwaran",
       no1 :"9361103942",
+      link:"https://docs.google.com/forms/d/e/1FAIpQLSesEgi6UVQ4BT3oxNJfza9MnXZmxCPR8eS8_tyVAbL_GofnGA/viewform",
       image: "https://images.unsplash.com/photo-1598488035139-bdbb2231ce04?auto=format&fit=crop&w=800&q=80",
       icon: Music
     } 
@@ -97,7 +103,7 @@ function App() {
       no1 :"7871759996",
       coed:"Student Coordinator ",
       icon: Code,
-      link1:"https://docs.google.com/forms/d/e/1FAIpQLSc_i9eBP3RywTdOUBQYShw1y_NiPguiWoWQ8fkUsQP1FVKWUA/viewform?usp=dialog",
+      link1:"https://docs.google.com/forms/d/e/1FAIpQLSeSsZjGEWZPQKG0t_n9Gp932IWe4w1Yf526nd4yE9vbS2t6Dg/viewform",
       
     },
     {
@@ -121,6 +127,7 @@ function App() {
       name1 :"Mohana Vignesh",
       no1 :"9381171150",
       coed:"Student Coordinator ",
+      link1:"https://docs.google.com/forms/d/e/1FAIpQLSe2pGPfgOD1OCPhy7zpjUMG2boeOgIk1q-A8w5154O3ENc2dw/viewform?usp=header",
       icon: Rocket
     },
     {
@@ -131,6 +138,7 @@ function App() {
       name1 :"Yogrshwaran",
       no1 :"7338830707",
       coed:"Student Coordinator ",
+      link1:"https://docs.google.com/forms/d/e/1FAIpQLSejH-BDFinQxqTRMeTbbR8wux20HKae3FPzHMaOHRwtSCFDmw/viewform?usp=header",
       image: "https://images.unsplash.com/photo-1544383835-bda2bc66a55d?auto=format&fit=crop&w=800&q=80",
       icon: Database
     },
@@ -142,6 +150,7 @@ function App() {
       no :"6381133082",
       name1 :"Vimal",
       no1 :"6369572408",
+      link1:"https://docs.google.com/forms/d/e/1FAIpQLSdpBhe1NHw8Hn00zMTu7ObXRuHzeqfbixHpB4mebb1naPQY7Q/viewform?usp=header",
       coed:"Student Coordinator ",
       icon: Robot
     }
@@ -359,7 +368,7 @@ function App() {
                     <h3 className="text-xl text-yellow-400 font-bold text-center mb-2">{event.title}</h3>
                     <p className="text-gray-300 text-center mb-4">{event.description}</p>
                     <h3 className="text-xl text-yellow-400 text-center mb-3">{event.coed}</h3>
-                    <div className="sm:grid md:grid-cols-2 flex cols-2 mb-2" ><p>{event.name} <br></br>contact: {event.no}</p> <p className=" ml-2 ">{event.name1}<br></br>contact: {event.no1}</p></div>
+                    <div className="sm:grid sm:grid-cols-2 flex cols-2 mb-2" ><p>{event.name} <br></br>contact: {event.no}</p> <p className=" ml-2 ">{event.name1}<br></br>contact: {event.no1}</p></div>
                      <a href={event.link}><button className="w-full bg-yellow-400 text-black px-4 py-2 rounded font-bold hover:bg-yellow-300 transition">
                       Register
                     </button></a>
