@@ -35,6 +35,7 @@ function App() {
       name1 :"Dilli ganesh",
       no1 :"9361103942",
       image: "https://images.unsplash.com/photo-1542751371-adc38448a05e?auto=format&fit=crop&w=800&q=80",
+      link:"https://docs.google.com/forms/d/e/1FAIpQLScytXlI0kMiHZO3MyDe-ww8fe2WgkzwcovM-XKFxPjrz7MjQw/viewform?usp=dialog",
       icon: Gamepad
      
     },
@@ -96,7 +97,7 @@ function App() {
       no1 :"7871759996",
       coed:"Student Coordinator ",
       icon: Code,
-      link:"https://docs.google.com/forms/d/e/1FAIpQLSc_i9eBP3RywTdOUBQYShw1y_NiPguiWoWQ8fkUsQP1FVKWUA/viewform?usp=dialog",
+      link1:"https://docs.google.com/forms/d/e/1FAIpQLSc_i9eBP3RywTdOUBQYShw1y_NiPguiWoWQ8fkUsQP1FVKWUA/viewform?usp=dialog",
       
     },
     {
@@ -109,7 +110,7 @@ function App() {
       no1 :"7395956584",
       coed:"Student Coordinator ",
       icon: Brain,
-      link:"https://docs.google.com/forms/d/e/1FAIpQLSc_i9eBP3RywTdOUBQYShw1y_NiPguiWoWQ8fkUsQP1FVKWUA/viewform?usp=dialog",
+      link1:"https://docs.google.com/forms/d/e/1FAIpQLSc_i9eBP3RywTdOUBQYShw1y_NiPguiWoWQ8fkUsQP1FVKWUA/viewform?usp=dialog",
     },
     {
       title: "Rapid Sketch",
@@ -357,11 +358,11 @@ function App() {
                     </div>
                     <h3 className="text-xl text-yellow-400 font-bold text-center mb-2">{event.title}</h3>
                     <p className="text-gray-300 text-center mb-4">{event.description}</p>
-                    <h3 className="text-xl text-yellow-400 text-center mb-4">{event.coed}</h3>
-                    <div className=" grid md:grid-cols-2  " ><p>Name :{event.name} <br></br>contact:{event.no}</p> <p className=" text-right ml-12 ">Name : {event.name1}<br></br>contact:{event.no1}</p></div>
-                    <button className="w-full bg-yellow-400 text-black px-4 py-2 rounded font-bold hover:bg-yellow-300 transition">
+                    <h3 className="text-xl text-yellow-400 text-center mb-3">{event.coed}</h3>
+                    <div className="sm:grid md:grid-cols-2 flex cols-2 mb-2" ><p>{event.name} <br></br>contact: {event.no}</p> <p className=" text-right ml-12 ">{event.name1}<br></br>contact: {event.no1}</p></div>
+                     <a href={event.link}><button className="w-full bg-yellow-400 text-black px-4 py-2 rounded font-bold hover:bg-yellow-300 transition">
                       Register
-                    </button>
+                    </button></a>
                   </div>
                 </SwiperSlide>
               ))}
@@ -421,11 +422,11 @@ function App() {
                     </div>
                     <h3 className="text-xl text-yellow-400 font-bold text-center mb-2">{event.title}</h3>
                     <p className="text-gray-300 text-center mb-4">{event.description}</p>
-                    <h3 className="text-xl text-yellow-400 text-center mb-4">{event.coed}</h3>
-                    <div className="sm:flex sm:cls-2 md:ml-1 m-3" ><p>Name :{event.name} <br></br>contact:{event.no}</p> <p className=" text-right ml-12 ">Name : {event.name1}<br></br>contact:{event.no1}</p></div>
-                    <button className="w-full bg-yellow-400 text-black px-4 py-2 rounded font-bold hover:bg-yellow-300 transition">
-                     <a href={event.link}>Register</a> 
-                    </button>
+                    <h3 className="text-xl text-yellow-400 text-center mb-3">{event.coed}</h3>
+                    <div className="sm:grid md:grid-cols-2 flex cols-2 mb-2" ><p>{event.name} <br></br>contact:{event.no}</p> <p className=" text-right ml-12 "> {event.name1}<br></br>contact:{event.no1}</p></div>
+                    <a href={event.link1}><button  className="w-full bg-yellow-400 text-black px-4 py-2 rounded font-bold hover:bg-yellow-300 transition">
+                    Register
+                    </button></a>
                   </div>
                 </SwiperSlide>
               ))}
