@@ -626,7 +626,7 @@ function App() {
               <div className="text-left mt-8">
               <div className="text-left mt-8">
   <p className="font-bold text-lg mb-4">Developers</p>
-  <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-4 items-center">
+  <div className="grid grid-cols-4 sm:grid-cols-2 md:grid-cols-4 gap-2 items-center">
     <a href="https://www.linkedin.com/in/deepak-m-2a72472a2" target="_blank" className="flex flex-col items-center space-y-2">
       <img src="l.png" alt="Deepak M - LinkedIn" className="h-10 w-10" />
       <span className="text-center">Deepak M</span>
