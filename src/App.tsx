@@ -21,7 +21,7 @@ import fo from "../public/fo.jpeg"
 import pm from "../public/pm.jpeg"
 import mh from "../public/mh.jpeg"
 import rs from "../public/rs.jpeg"
-
+import wh from "../public/wh.jpeg"
 
 function App() {
   const [isMenuOpen, setIsMenuOpen] = React.useState(false);
@@ -45,8 +45,7 @@ function App() {
       name1 :"Dilli ganesh",
       no1 :"9361103942",
       image: ms,
-      link:"https://docs.google.com/forms/d/e/1FAIpQLScWW7otrGhWQMpbs4L5YrDEBRV5BMi1M5NsLoQClOxfVv9VRQ/viewform",
-      icon: Gamepad
+      link:"https://docs.google.com/forms/d/e/1FAIpQLScWW7otrGhWQMpbs4L5YrDEBRV5BMi1M5NsLoQClOxfVv9VRQ/viewform"
      
     },
     {
@@ -58,8 +57,7 @@ function App() {
       name1 :"Vishnu",
       no1 :"9159830266",
       link:"https://docs.google.com/forms/d/e/1FAIpQLScx5k7j6Uk8MhL0ep3Ipt8PdE0ngOK7PIhAU4IMLEzaD5RtRw/viewform?usp=header",
-      image: bb,
-      icon: Camera
+      image: bb
   
     },
     {
@@ -71,8 +69,7 @@ function App() {
       name1 :"Hariharan",
       no1 :"9445338220",
       link:"https://docs.google.com/forms/d/e/1FAIpQLScWN0N8r2pa6MwB7ywvj79T-M-ZFICGKREwIG00iI5Bt7G0SA/viewform",
-      image: "https://images.unsplash.com/photo-1516450360452-9312f5e86fc7?auto=format&fit=crop&w=800&q=80",
-      icon: Mic
+      image: wh
 
     },
     {
@@ -85,8 +82,7 @@ function App() {
       name1 :"Sriram",
       no1 :"9443700344",
       link:"https://docs.google.com/forms/d/e/1FAIpQLSeTUunTcJt4JDO7YDJ4jV3033WsQeDKl52lzhwToE9gpq0GAA/viewform",
-      image: ci,
-      icon: Camera
+      image: ci
     },
     {
       title: "Startup pitch",
@@ -97,8 +93,7 @@ function App() {
       name1 :"Munishwaran",
       no1 :"9361103942",
       link:"https://docs.google.com/forms/d/e/1FAIpQLSesEgi6UVQ4BT3oxNJfza9MnXZmxCPR8eS8_tyVAbL_GofnGA/viewform",
-      image: sp,
-      icon: Music
+      image: sp
     } 
   ];
 
@@ -112,7 +107,6 @@ function App() {
       name1 :"Sriram Kannan",
       no1 :"7871759996",
       coed:"Student Coordinator ",
-      icon: Code,
       link1:"https://docs.google.com/forms/d/e/1FAIpQLSeSsZjGEWZPQKG0t_n9Gp932IWe4w1Yf526nd4yE9vbS2t6Dg/viewform",
       
     },
@@ -125,7 +119,6 @@ function App() {
       name1 :"Yunis edwin",
       no1 :"7395956584",
       coed:"Student Coordinator ",
-      icon: Brain,
       link1:"https://docs.google.com/forms/d/e/1FAIpQLSeIh4SMdTQwNtEd3fvUUWbWgw34TD-1eZd5d3fu-hI0jz89eg/viewform",
     },
     {
@@ -137,8 +130,7 @@ function App() {
       name1 :"Mohana Vignesh",
       no1 :"9381171150",
       coed:"Student Coordinator ",
-      link1:"https://docs.google.com/forms/d/e/1FAIpQLSe2pGPfgOD1OCPhy7zpjUMG2boeOgIk1q-A8w5154O3ENc2dw/viewform?usp=header",
-      icon: Rocket
+      link1:"https://docs.google.com/forms/d/e/1FAIpQLSe2pGPfgOD1OCPhy7zpjUMG2boeOgIk1q-A8w5154O3ENc2dw/viewform?usp=header"
     },
     {
       title: "Musical chair",
@@ -149,8 +141,7 @@ function App() {
       no1 :"7338830707",
       coed:"Student Coordinator ",
       link1:"https://docs.google.com/forms/d/e/1FAIpQLSejH-BDFinQxqTRMeTbbR8wux20HKae3FPzHMaOHRwtSCFDmw/viewform?usp=header",
-      image:mh,
-      icon: Database
+      image:mh
     },
     {
       title: "Treasure Hunt",
@@ -161,8 +152,7 @@ function App() {
       name1 :"Vimal",
       no1 :"6369572408",
       link1:"https://docs.google.com/forms/d/e/1FAIpQLSdpBhe1NHw8Hn00zMTu7ObXRuHzeqfbixHpB4mebb1naPQY7Q/viewform?usp=header",
-      coed:"Student Coordinator ",
-      icon: Robot
+      coed:"Student Coordinator "
     }
   ];
 
@@ -198,17 +188,17 @@ function App() {
     <div className="max-w-7xl mx-auto px-4 flex justify-between items-center">
       {/* Logo Section */}
       <div className="flex items-center">
-        <img src={msec} alt="MSEC Logo" className="h-40 w-45 opacity-100" />
+        <img src={msec} alt="MSEC Logo" className="sm:h-40 sm:w-auto h-20 w-20 opacity-100" />
       </div>
 
       {/* Event Name with Spinning Icon */}
       <div className="flex items-center space-x-2">
-        <img src={yantra} alt="MSEC Logo" className="w-58 h-60 text-yellow-400 animate-rotate-slow" />
+        <img src={yantra} alt="MSEC Logo" className="sm:w-auto sm:h-60  h-20 w-25 text-yellow-400 animate-rotate-slow" />
       </div>
 
       {/* Right Section */}
       <div className="flex items-center space-x-2">
-        <img src={torque} alt="MSEC Logo" className="w-50 h-40 text-yellow-400" />
+        <img src={torque} alt="MSEC Logo" className="sm:w-auto sm:h-60  h-20 w-20 text-yellow-400" />
       </div>
     </div>
   </div>
@@ -371,9 +361,7 @@ function App() {
                         alt={event.title}
                         className="w-full h-64 md:h-80 md:w-full object-cover transform group-hover:scale-110 transition duration-500"
                       />
-                      <div className="absolute top-4 left-4">
-                        <event.icon className="w-8 h-8 text-yellow-400" />
-                      </div>
+
                     </div>
                     <h3 className="text-xl text-yellow-400 font-bold text-center mb-2">{event.title}</h3>
                     <p className="text-gray-300 text-center mb-4">{event.description}</p>
@@ -435,9 +423,6 @@ function App() {
                         alt={event.title}
                         className="w-full h-64 md:full object-cover transform group-hover:scale-110 transition duration-500"
                       />
-                      <div className="absolute top-4 left-4">
-                        <event.icon className="w-8 h-8 text-yellow-400" />
-                      </div>
                     </div>
                     <h3 className="text-xl text-yellow-400 font-bold text-center mb-2">{event.title}</h3>
                     <p className="text-gray-300 text-center mb-4">{event.description}</p>
