@@ -572,6 +572,10 @@ const logos = [
       <img src="l.png" alt="Aadhithya Narayanan K S - LinkedIn" className="h-10 w-10" />
       <span className="text-center">Aadhithya Narayanan</span>
     </a>
+    <a href="https://www.linkedin.com/in/ramasubramanian-anandkumar-a5264a350?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app" target="_blank" className="flex flex-col items-center space-y-2">
+      <img src="l.png" alt="Ramasubramanian - LinkedIn" className="h-10 w-10" />
+      <span className="text-center">Rama   subramanian</span>
+    </a>
   </div>
 </div>
 </div>
