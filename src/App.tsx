@@ -22,6 +22,9 @@ import pm from "../public/pm.jpeg"
 import mh from "../public/mh.jpeg"
 import rs from "../public/rs.jpeg"
 import wh from "../public/wh.jpeg"
+import GoogleMap from "../public/components/GoogleMap.tsx";
+
+
 
 function App() {
   const [isMenuOpen, setIsMenuOpen] = React.useState(false);
@@ -96,7 +99,13 @@ function App() {
       image: sp
     } 
   ];
-
+ 
+const logos = [
+  { src: msec, alt: "Institute Logo" },
+  { src: yantra, alt: "Yantra 2K25" },
+  { src: torque, alt: "TorqueX" },
+ 
+];
   const nonTechnicalEvents = [
     {
       title: "Find Out",
@@ -184,28 +193,27 @@ function App() {
         {/* Top Logo Bar */}
         <div className="relative z-10">
   {/* Top Logo Bar */}
-  <div className="bg-black/0 backdrop-blur-sm py-2">
-    <div className="max-w-7xl mx-auto px-4 flex justify-between items-center">
-      {/* Logo Section */}
-      <div className="flex items-center">
-        <img src={msec} alt="MSEC Logo" className="sm:h-40 sm:w-auto h-20 w-20 opacity-100" />
-      </div>
-
-      {/* Event Name with Spinning Icon */}
-      <div className="flex items-center space-x-2">
-        <img src={yantra} alt="MSEC Logo" className="sm:w-auto sm:h-60  h-20 w-25 text-yellow-400 animate-rotate-slow" />
-      </div>
-
-      {/* Right Section */}
-      <div className="flex items-center space-x-2">
-        <img src={torque} alt="MSEC Logo" className="sm:w-auto sm:h-60  h-20 w-20 text-yellow-400" />
+  <div className="container mx-auto px-4 py-6">
+      <div className="grid grid-cols-3 sm:grid-cols-3 md:grid-cols-3 gap-6 items-center justify-items-center">
+        {logos.map((logo, index) => (
+          <div 
+            key={index} 
+            className="w-full max-w-[200px] p-4 transition-transform duration-300 hover:scale-105"
+          >
+            <img 
+              src={logo.src} 
+              alt={logo.alt} 
+              className="w-full h-auto object-contain"
+              loading="lazy"
+            />
+          </div>
+        ))}
       </div>
     </div>
-  </div>
 </div>
 
         {/* Navigation */}
-        <nav className="bg-black/0 backdrop-blur-sm py-2 border-b border-yellow-400/20">
+        <nav className="bg-black/0 backdrop-blur-sm  border-b border-yellow-400/20">
           <div className="max-w-7xl mx-auto px-4">
             <div className="flex justify-between items-center h-16">
               <div className="flex-shrink-0">
@@ -213,12 +221,12 @@ function App() {
               </div>
 
               {/* Desktop Menu */}
-              <div className="hidden md:flex space-x-8">
-                <Link to="/" className="hover:text-yellow-400 transition">Home</Link>
-                <a href="#events" className="hover:text-yellow-400 transition">Events</a>
-                <a href="#sponsors" className="hover:text-yellow-400 transition">Sponsors</a>
-                <Link to="/about" className="hover:text-yellow-400 transition">About</Link>
-                <a href="#contact" className="hover:text-yellow-400 transition">Contact</a>
+              <div className="hidden md:flex space-x-10">
+                <Link to="/" className="hover:text-yellow-400 transition">HOME</Link>
+                <a href="#events" className="hover:text-yellow-400 transition">EVENTS</a>
+                {/* <a href="#sponsors" className="hover:text-yellow-400 transition">Sponsors</a> */}
+                <Link to="/about" className="hover:text-yellow-400 transition">ABOUT</Link>
+                <a href="#contact" className="hover:text-yellow-400 transition">CONTACT</a>
               </div>
 
               {/* Mobile Menu Button */}
@@ -233,7 +241,7 @@ function App() {
                 <div className="flex flex-col space-y-4">
                   <Link to="/" className="hover:text-yellow-400 transition">Home</Link>
                   <a href="#events" className="hover:text-yellow-400 transition">Events</a>
-                  <a href="#sponsors" className="hover:text-yellow-400 transition">Sponsors</a>
+                  {/* <a href="#sponsors" className="hover:text-yellow-400 transition">Sponsors</a> */}
                   <Link to="/about" className="hover:text-yellow-400 transition">About</Link>
                   <a href="#contact" className="hover:text-yellow-400 transition">Contact</a>
                 </div>
@@ -243,7 +251,7 @@ function App() {
         </nav>
 
         {/* Hero Section */}
-        <section id="home" className="relative pt-1 md min-h-screen flex items-center justify-center text-center">
+        <section id="home" className="relative pt-10 flex items-center justify-center text-center">
           <div className="relative z-10 max-w-4xl mx-auto px-4 bg-black/0 py-12 rounded-lg backdrop-blur-sm">
             <h1 className="text-4xl md:text-6xl font-bold mb-6">
               Meenakshi Sundararajan Engineering College
@@ -486,38 +494,52 @@ function App() {
             <h3 className="text-2xl font-bold text-center mb-8">Student Coordinators</h3>
             <div className="grid md:grid-cols-3 gap-8">
               <div className="bg-white/10 p-6 rounded-lg">
-                <h4 className="font-bold mb-2">Student Coordinator 1</h4>
+                <h4 className="font-bold mb-2">President</h4>
                 <p>Vignesh</p>
                 <p className="text-sm text-gray-400">Contact: +91 7708929927</p>
               </div>
               <div className="bg-white/10 p-6 rounded-lg">
-                <h4 className="font-bold mb-2">Student Coordinator 2</h4>
+                <h4 className="font-bold mb-2">Vice President</h4>
                 <p>Srikanth</p>
                 <p className="text-sm text-gray-400">Contact: +91 7200064438</p>
               </div>
               <div className="bg-white/10 p-6 rounded-lg">
-                <h4 className="font-bold mb-2">Student Coordinator 3</h4>
+                <h4 className="font-bold mb-2">Technical Head</h4>
                 <p>Hadson vimal</p>
                 <p className="text-sm text-gray-400">Contact: +91 8122861175</p>
               </div>
               <div className="bg-white/10 p-6 rounded-lg">
-                <h4 className="font-bold mb-2"> Student Coordinator 4</h4>
+                <h4 className="font-bold mb-2"> Technical Head</h4>
                 <p>Venkat Prabhu R</p>
                 <p className="text-sm text-gray-400">Contact: +91 7010492020 </p>
               </div>
               <div className="bg-white/10 p-6 rounded-lg">
-                <h4 className="font-bold mb-2">Student Coordinator 5</h4>
+                <h4 className="font-bold mb-2">Non Technical Head</h4>
                 <p>Yuvan shankar T</p>
                 <p className="text-sm text-gray-400">Contact: +91 9150823211</p>
               </div>
               <div className="bg-white/10 p-6 rounded-lg">
-                <h4 className="font-bold mb-2">Student Coordinator 6</h4>
+                <h4 className="font-bold mb-2">Non Technical Head</h4>
                 <p>P karthikeyan</p>
                 <p className="text-sm text-gray-400">Contact: +919940020432</p>
               </div>
+              
             </div>
           </div>
         </section>
+       <section id="contact" className="py-16 bg-black/50 backdrop-blur-sm">        
+        <div className="w-full max-w-3xl mx-auto rounded-lg shadow-lg bg-black/70 sm:p-20 p-9">
+        <div className="flex items-center gap-2 mb-4">
+         <MapPin className="w-6 h-6 text-blue-500" />
+         <h1 className="text-2xl font-bold text-gray-200">College Location</h1>
+        </div>
+        <p className="text-gray-400 mb-6">
+            Meenakshi Sundararajan Engineering College, Kodambakkam, Chennai
+        </p>
+          <GoogleMap />
+         </div>
+      </section>
+
 
         {/* Footer */}
         <footer className="bg-black/80 backdrop-blur-sm py-8">
