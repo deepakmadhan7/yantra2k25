@@ -285,7 +285,7 @@ const logos = [
                 </div>
                 <ul className="space-y-2 text-gray-300">
                   <li>• April 16th, 2025</li>
-                  <li>• Registration deadline: April 10th</li>
+                  <li>• Registration deadline: April 14th</li>
                   {/* <li>• Reporting time: 8:30 AM</li> */}
                 </ul>
               </div>
