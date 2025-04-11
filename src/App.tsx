@@ -456,8 +456,7 @@ const logos = [
             </div>
           </div>
         </section>
-
-       
+   
         {/* Staff Section */}
         <section id="contact" className="py-20 bg-black/50">
           <div className="max-w-6xl mx-auto px-4">
@@ -494,32 +493,32 @@ const logos = [
             <h3 className="text-2xl font-bold text-center mb-8">Student Coordinators</h3>
             <div className="grid md:grid-cols-3 gap-8">
               <div className="bg-white/10 p-6 rounded-lg">
-                <h4 className="font-bold mb-2">President</h4>
+                <h4 className="font-bold mb-2">Student Coordinator 1</h4>
                 <p>Vignesh</p>
                 <p className="text-sm text-gray-400">Contact: +91 7708929927</p>
               </div>
               <div className="bg-white/10 p-6 rounded-lg">
-                <h4 className="font-bold mb-2">Vice President</h4>
+                <h4 className="font-bold mb-2">Student Coordinator 2</h4>
                 <p>Srikanth</p>
                 <p className="text-sm text-gray-400">Contact: +91 7200064438</p>
               </div>
               <div className="bg-white/10 p-6 rounded-lg">
-                <h4 className="font-bold mb-2">Technical Head</h4>
+                <h4 className="font-bold mb-2">Student Coordinator 3</h4>
                 <p>Hadson vimal</p>
                 <p className="text-sm text-gray-400">Contact: +91 8122861175</p>
               </div>
               <div className="bg-white/10 p-6 rounded-lg">
-                <h4 className="font-bold mb-2"> Technical Head</h4>
+                <h4 className="font-bold mb-2"> Student Coordinator 4</h4>
                 <p>Venkat Prabhu R</p>
                 <p className="text-sm text-gray-400">Contact: +91 7010492020 </p>
               </div>
               <div className="bg-white/10 p-6 rounded-lg">
-                <h4 className="font-bold mb-2">Non Technical Head</h4>
+                <h4 className="font-bold mb-2">Student Coordinator 5</h4>
                 <p>Yuvan shankar T</p>
                 <p className="text-sm text-gray-400">Contact: +91 9150823211</p>
               </div>
               <div className="bg-white/10 p-6 rounded-lg">
-                <h4 className="font-bold mb-2">Non Technical Head</h4>
+                <h4 className="font-bold mb-2">Student Coordinator 6</h4>
                 <p>P karthikeyan</p>
                 <p className="text-sm text-gray-400">Contact: +919940020432</p>
               </div>
@@ -559,7 +558,7 @@ const logos = [
               <div className="text-left mt-8">
               <div className="text-left mt-8">
   <p className="font-bold text-lg mb-4">Developers</p>
-  <div className="grid grid-cols-4 sm:grid-cols-2 md:grid-cols-4 gap-1 items-center">
+  <div className="grid grid-cols-3 sm:grid-cols-2 md:grid-cols-3 gap-1 items-center">
     <a href="https://www.linkedin.com/in/deepak-m-2a72472a2" target="_blank" className="flex flex-col items-center space-y-2">
       <img src="l.png" alt="Deepak M - LinkedIn" className="h-10 w-10" />
       <span className="text-center">Deepak M</span>
@@ -571,10 +570,6 @@ const logos = [
     <a href="https://www.linkedin.com/in/aadhithya-narayanan-k-s-29a3a5344" target="_blank" className="flex flex-col items-center space-y-2">
       <img src="l.png" alt="Aadhithya Narayanan K S - LinkedIn" className="h-10 w-10" />
       <span className="text-center">Aadhithya Narayanan</span>
-    </a>
-    <a href="https://www.linkedin.com/in/ramasubramanian-anandkumar-a5264a350?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app" target="_blank" className="flex flex-col items-center space-y-2">
-      <img src="l.png" alt="Ramasubramanian - LinkedIn" className="h-10 w-10" />
-      <span className="text-center">Rama   subramanian</span>
     </a>
   </div>
 </div>
