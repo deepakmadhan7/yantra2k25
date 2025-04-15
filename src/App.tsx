@@ -59,7 +59,7 @@ function App() {
       no :"9566974598",
       name1 :"Vishnu",
       no1 :"9159830266",
-      link:"https://docs.google.com/forms/d/e/1FAIpQLScx5k7j6Uk8MhL0ep3Ipt8PdE0ngOK7PIhAU4IMLEzaD5RtRw/viewform?usp=header",
+      link:"https://docs.google.com/Scx5k7j6Uk8MhL0ep3Ipt8PdE0ngOK7PIhAU4IMLEzaD5RtRw/viewform?usp=header",
       image: bb
   
     },
@@ -71,7 +71,7 @@ function App() {
       no :"9360378035",
       name1 :"Hariharan",
       no1 :"9445338220",
-      link:"https://docs.google.com/forms/d/e/1FAIpQLScWN0N8r2pa6MwB7ywvj79T-M-ZFICGKREwIG00iI5Bt7G0SA/viewform",
+      link:"https://docs.google.coIpQLScWN0N8r2pa6MwB7ywvj79T-M-ZFICGKREwIG00iI5Bt7G0SA/viewform",
       image: wh
 
     },
@@ -116,7 +116,7 @@ const logos = [
       name1 :"Sriram Kannan",
       no1 :"7871759996",
       coed:"Student Coordinator ",
-      link1:"https://docs.google.com/forms/d/e/1FAIpQLSeSsZjGEWZPQKG0t_n9Gp932IWe4w1Yf526nd4yE9vbS2t6Dg/viewform",
+      link1:"https://docs.googFAIpQLSeSsZjGEWZPQKG0t_n9Gp932IWe4w1Yf526nd4yE9vbS2t6Dg/viewform",
       
     },
     {
@@ -128,7 +128,7 @@ const logos = [
       name1 :"Yunis edwin",
       no1 :"7395956584",
       coed:"Student Coordinator ",
-      link1:"https://docs.google.com/forms/d/e/1FAIpQLSeIh4SMdTQwNtEd3fvUUWbWgw34TD-1eZd5d3fu-hI0jz89eg/viewform",
+      link1:"https://docs.gooFAIpQLSeIh4SMdTQwNtEd3fvUUWbWgw34TD-1eZd5d3fu-hI0jz89eg/viewform",
     },
     {
       title: "Rapid Sketch",
@@ -139,7 +139,7 @@ const logos = [
       name1 :"Mohana Vignesh",
       no1 :"9381171150",
       coed:"Student Coordinator ",
-      link1:"https://docs.google.com/forms/d/e/1FAIpQLSe2pGPfgOD1OCPhy7zpjUMG2boeOgIk1q-A8w5154O3ENc2dw/viewform?usp=header"
+      link1:"https://docorms/d/e/1FAIpQLSe2pGPfgOD1OCPhy7zpjUMG2boeOgIk1q-A8w5154O3ENc2dw/viewform?usp=header"
     },
     {
       title: "Musical chair",
@@ -149,7 +149,7 @@ const logos = [
       name1 :"Yogeshwaran",
       no1 :"7338830707",
       coed:"Student Coordinator ",
-      link1:"https://docs.google.com/forms/d/e/1FAIpQLSejH-BDFinQxqTRMeTbbR8wux20HKae3FPzHMaOHRwtSCFDmw/viewform?usp=header",
+      link1:"https://dforms/d/e/1FAIpQLSejH-BDFinQxqTRMeTbbR8wux20HKae3FPzHMaOHRwtSCFDmw/viewform?usp=header",
       image:mh
     },
     {
@@ -160,7 +160,7 @@ const logos = [
       no :"6381133082",
       name1 :"Vimal",
       no1 :"6369572408",
-      link1:"https://docs.google.com/forms/d/e/1FAIpQLSdpBhe1NHw8Hn00zMTu7ObXRuHzeqfbixHpB4mebb1naPQY7Q/viewform?usp=header",
+      link1:"httporms/d/e/1FAIpQLSdpBhe1NHw8Hn00zMTu7ObXRuHzeqfbixHpB4mebb1naPQY7Q/viewform?usp=header",
       coed:"Student Coordinator "
     }
   ];
